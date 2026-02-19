@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useLogin } from '@/presentation/hooks/useAuth';
+import { useLogin } from '@/lib/presentation/hooks/useAuth';
 import { motion } from 'framer-motion';
 import { z } from 'zod';
 

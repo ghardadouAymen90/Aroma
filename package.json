@@ -20,7 +20,7 @@
     "axios": "1.6.5",
     "framer-motion": "12.31.1",
     "jose": "5.2.0",
-    "next": "latest",
+    "next": "15.0.0",
     "postcss": "8.4.32",
     "react": "latest",
     "react-dom": "latest",

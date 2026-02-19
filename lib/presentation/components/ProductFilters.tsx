@@ -1,6 +1,6 @@
 'use client';
 
-import { useFilterStore } from '@/application/stores/filterStore';
+import { useFilterStore } from '@/lib/application/stores/filterStore';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 

@@ -1,8 +1,8 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { Header } from '@/lib/presentation/components/Header';
-import { useAuthStore } from '@/application/stores/authStore';
-import { useCartStore } from '@/application/stores/cartStore';
-import { useLogout } from '@/presentation/hooks/useAuth';
+import { useAuthStore } from '@/lib/application/stores/authStore';
+import { useCartStore } from '@/lib/application/stores/cartStore';
+import { useLogout } from '@/lib/presentation/hooks/useAuth';
 
 // Mock Next.js Link and router
 jest.mock('next/link', () => {
@@ -37,9 +37,9 @@ jest.mock('framer-motion', () => ({
 }));
 
 // Mock the auth store
-jest.mock('@/application/stores/authStore');
-jest.mock('@/application/stores/cartStore');
-jest.mock('@/presentation/hooks/useAuth');
+jest.mock('@/lib/application/stores/authStore');
+jest.mock('@/lib/application/stores/cartStore');
+jest.mock('@/lib/presentation/hooks/useAuth');
 
 describe('Header Component', () => {
   const mockUseAuthStore = useAuthStore as jest.MockedFunction<typeof useAuthStore>;

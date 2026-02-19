@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react';
-import { useAuthStore } from '@/application/stores/authStore';
+import { useAuthStore } from '@/lib/application/stores/authStore';
 
 describe('Auth Store', () => {
   beforeEach(() => {

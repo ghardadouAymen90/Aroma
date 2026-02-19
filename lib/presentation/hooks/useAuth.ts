@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useMutation, useQuery } from '@tanstack/react-query';
 import { User, AuthCredentials, AuthResponse } from '@/types/domain';
-import { useAuthStore } from '@/application/stores/authStore';
+import { useAuthStore } from '@/lib/application/stores/authStore';
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
 

@@ -1,9 +1,9 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ProductFilters } from '@/lib/presentation/components/ProductFilters';
-import { useFilterStore } from '@/application/stores/filterStore';
+import { useFilterStore } from '@/lib/application/stores/filterStore';
 
-jest.mock('@/application/stores/filterStore');
+jest.mock('@/lib/application/stores/filterStore');
 jest.mock('next/image', () => ({
   __esModule: true,
   default: (props: any) => {

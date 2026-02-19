@@ -3,9 +3,9 @@
  */
 
 import { renderHook, act } from '@testing-library/react';
-import { useAuthStore } from '@/application/stores/authStore';
-import { useCartStore } from '@/application/stores/cartStore';
-import { useFilterStore } from '@/application/stores/filterStore';
+import { useAuthStore } from '@/lib/application/stores/authStore';
+import { useCartStore } from '@/lib/application/stores/cartStore';
+import { useFilterStore } from '@/lib/application/stores/filterStore';
 
 const mockUser = {
   id: '1',

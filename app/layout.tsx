@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import { Providers } from '@/presentation/components/Providers';
-import { Header } from '@/presentation/components/Header';
-import { Footer } from '@/presentation/components/Footer';
+import { Providers } from '@/lib/presentation/components/Providers';
+import { Header } from '@/lib/presentation/components/Header';
+import { Footer } from '@/lib/presentation/components/Footer';
 import {
   OrganizationSchema,
   WebSiteSchema,

@@ -7,11 +7,11 @@
 // This allows static performance benefits while keeping product data fresh
 
 import { Metadata } from 'next';
-import { useProducts } from '@/presentation/hooks/useProducts';
-import { ProductCard } from '@/presentation/components/ProductCard';
-import { ProductFilters } from '@/presentation/components/ProductFilters';
-import { ProductsGridSkeleton } from '@/presentation/components/Skeletons';
-import { useFilterStore } from '@/application/stores/filterStore';
+import { useProducts } from '@/lib/presentation/hooks/useProducts';
+import { ProductCard } from '@/lib/presentation/components/ProductCard';
+import { ProductFilters } from '@/lib/presentation/components/ProductFilters';
+import { ProductsGridSkeleton } from '@/lib/presentation/components/Skeletons';
+import { useFilterStore } from '@/lib/application/stores/filterStore';
 import { motion } from 'framer-motion';
 
 export default function Home() {

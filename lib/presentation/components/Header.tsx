@@ -1,9 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { useAuthStore } from '@/application/stores/authStore';
-import { useLogout } from '@/presentation/hooks/useAuth';
-import { useCartStore } from '@/application/stores/cartStore';
+import { useAuthStore } from '@/lib/application/stores/authStore';
+import { useLogout } from '@/lib/presentation/hooks/useAuth';
+import { useCartStore } from '@/lib/application/stores/cartStore';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 

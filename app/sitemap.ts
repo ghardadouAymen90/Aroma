@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { mockProducts } from '@/infrastructure/mockDatabase';
+import { mockProducts } from '@/lib/infrastructure/mockDatabase';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://aroma-fragrance.com';

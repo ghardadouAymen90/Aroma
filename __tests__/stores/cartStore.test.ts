@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react';
-import { useCartStore } from '@/application/stores/cartStore';
+import { useCartStore } from '@/lib/application/stores/cartStore';
 
 // Mock product for testing
 const mockProduct = {

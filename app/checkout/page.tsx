@@ -3,9 +3,9 @@
 import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '@/application/stores/authStore';
-import { useCartStore } from '@/application/stores/cartStore';
-import { useProducts } from '@/presentation/hooks/useProducts';
+import { useAuthStore } from '@/lib/application/stores/authStore';
+import { useCartStore } from '@/lib/application/stores/cartStore';
+import { useProducts } from '@/lib/presentation/hooks/useProducts';
 
 // CSR: Client-Side Rendering
 // Checkout page handles user-specific order processing and payment

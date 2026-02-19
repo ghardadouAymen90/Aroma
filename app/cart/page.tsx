@@ -5,9 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { useCartStore } from '@/application/stores/cartStore';
-import { useProducts } from '@/presentation/hooks/useProducts';
-import { useAuthStore } from '@/application/stores/authStore';
+import { useCartStore } from '@/lib/application/stores/cartStore';
+import { useProducts } from '@/lib/presentation/hooks/useProducts';
+import { useAuthStore } from '@/lib/application/stores/authStore';
 
 export default function CartPage() {
   const router = useRouter();

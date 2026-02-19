@@ -1,6 +1,6 @@
 'use client';
 
-import { useAuthStore } from '@/application/stores/authStore';
+import { useAuthStore } from '@/lib/application/stores/authStore';
 import { useEffect } from 'react';
 
 // CSR: Client-Side Rendering

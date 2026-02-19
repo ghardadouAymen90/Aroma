@@ -3,7 +3,7 @@
 import { Product } from '@/types/domain';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useCartStore } from '@/application/stores/cartStore';
+import { useCartStore } from '@/lib/application/stores/cartStore';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 

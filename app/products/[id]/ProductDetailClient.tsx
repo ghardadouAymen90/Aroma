@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useCartStore } from '@/application/stores/cartStore';
+import { useCartStore } from '@/lib/application/stores/cartStore';
 import { useRouter } from 'next/navigation';
 import { Product } from '@/types/domain';
 

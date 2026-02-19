@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 import { Product, PaginatedResponse, FilterParams } from '@/types/domain';
-import { useFilterStore } from '@/application/stores/filterStore';
+import { useFilterStore } from '@/lib/application/stores/filterStore';
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
 

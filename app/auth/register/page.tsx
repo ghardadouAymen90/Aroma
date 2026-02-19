@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useRegister } from '@/presentation/hooks/useAuth';
+import { useRegister } from '@/lib/presentation/hooks/useAuth';
 import { registerSchema, type RegisterFormData } from '@/validations/auth';
 import { motion } from 'framer-motion';
 
