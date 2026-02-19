@@ -1,0 +1,20 @@
+{
+  "css.lint.vendorPrefix": "ignore",
+  "css.lint.duplicateProperties": "ignore",
+  "css.lint.universalSelector": "ignore",
+  "css.lint.zeroUnits": "ignore",
+  "css.lint.fontFaceProperties": "ignore",
+  "css.lint.hexColorLength": "ignore",
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "stylelint.enable": true,
+  "stylelint.validateDefaultIgnoredPaths": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
