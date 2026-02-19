@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useAuthStore } from '@/application/stores/authStore';
 import { useCartStore } from '@/application/stores/cartStore';
 import { useProducts } from '@/presentation/hooks/useProducts';
@@ -13,6 +14,7 @@ import { useProducts } from '@/presentation/hooks/useProducts';
 // Must be CSR because it requires authentication, real-time cart validation, and payment handling
 
 export default function CheckoutPage() {
+  const router = useRouter();
   const { user } = useAuthStore();
   
   // Store the return URL immediately if not authenticated
