@@ -2,6 +2,8 @@
 
 A sophisticated, production-ready e-commerce platform for selling premium fragrances. Built with modern technologies, clean architecture principles, and enterprise-grade security.
 
+**🔗 Live Demo**: [https://aroma-lemon.vercel.app](https://aroma-lemon.vercel.app)
+
 ## Table of Contents
 
 - [Quick Start](#quick-start)
